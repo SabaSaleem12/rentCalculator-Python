@@ -1,0 +1,6 @@
+TotalRent = int(input("Enter the total rent: "))
+NumRoommates = int(input("Enter the number of roommates: "))
+electricBill = int(input("Enter the total electric bill: "))
+foodTotal = int(input("Enter the total food cost: "))
+RentPerPerson = int((TotalRent + foodTotal + electricBill)/ NumRoommates)
+print("Each person should pay: ", RentPerPerson)
